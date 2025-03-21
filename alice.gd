@@ -6,9 +6,16 @@ extends CharacterBody2D
 @export var speed = 30  
 @export var random_rest_interval = 3
 
-var targets = [Vector2(60 * 8, -9 * 8), Vector2(75 * 8, -10 * 8), 
-			   Vector2(78 * 8, -19 * 8), Vector2(88 * 8, -55 * 8), 
-			   Vector2(3 * 8, -54 * 8), Vector2(3 * 8, -23 * 8)]
+var targets = [
+	Vector2(8 * 8, -29 * 8), Vector2(33 * 8, -7 * 8), 
+	Vector2(47 * 8, -19 * 8), Vector2(76 * 8, -14 * 8), 
+	Vector2(87 * 8, -34 * 8), Vector2(90 * 8, -23 * 8), 
+	Vector2(91 * 8, -58 * 8), Vector2(66 * 8, -58 * 8), 
+	Vector2(16 * 8, -57 * 8), Vector2(8 * 8, -50 * 8), 
+	Vector2(36 * 8, -56 * 8), Vector2(51 * 8, -37 * 8), 
+	Vector2(58 * 8, -39 * 8), Vector2(46 * 8, -21 * 8), 
+	Vector2(67 * 8, -14 * 8), Vector2(20 * 8, -20 * 8), 
+]
 var current_target = Vector2.ZERO
 var is_resting = false
 var timer = 0
