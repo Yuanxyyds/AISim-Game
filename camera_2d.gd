@@ -1,8 +1,8 @@
 extends Camera2D
 
 @export var tile_size = 8
-@export var map_width_tiles = 100
-@export var map_height_tiles = -65  # Number of tiles in height
+@export var map_width_tiles = 127
+@export var map_height_tiles = -88  # Number of tiles in height
 
 func _ready():
 	# Calculate total map size

@@ -7,15 +7,28 @@ extends CharacterBody2D
 @export var random_rest_interval = 3
 
 var targets = [
-	Vector2(8 * 8, -29 * 8), Vector2(33 * 8, -7 * 8), 
-	Vector2(47 * 8, -19 * 8), Vector2(76 * 8, -14 * 8), 
-	Vector2(87 * 8, -34 * 8), Vector2(90 * 8, -23 * 8), 
-	Vector2(91 * 8, -58 * 8), Vector2(66 * 8, -58 * 8), 
-	Vector2(16 * 8, -57 * 8), Vector2(8 * 8, -50 * 8), 
-	Vector2(36 * 8, -56 * 8), Vector2(51 * 8, -37 * 8), 
-	Vector2(58 * 8, -39 * 8), Vector2(46 * 8, -21 * 8), 
-	Vector2(67 * 8, -14 * 8), Vector2(20 * 8, -20 * 8), 
+	Vector2(6 * 8, -8 * 8),
+	Vector2(20 * 8, -10 * 8),
+	Vector2(34 * 8, -12 * 8),
+	Vector2(48 * 8, -14 * 8),
+	Vector2(62 * 8, -16 * 8),
+	Vector2(76 * 8, -18 * 8),
+	Vector2(90 * 8, -20 * 8),
+	Vector2(104 * 8, -22 * 8),
+	Vector2(118 * 8, -24 * 8),
+	Vector2(100 * 8, -26 * 8),
+	Vector2(86 * 8, -28 * 8),
+	Vector2(72 * 8, -30 * 8),
+	Vector2(58 * 8, -32 * 8),
+	Vector2(44 * 8, -12 * 8),
+	Vector2(30 * 8, -16 * 8),
+	Vector2(16 * 8, -24 * 8),
+	Vector2(12 * 8, -30 * 8),
+	Vector2(36 * 8, -28 * 8),
+	Vector2(54 * 8, -20 * 8),
+	Vector2(70 * 8, -10 * 8),
 ]
+
 var current_target = Vector2.ZERO
 var is_resting = false
 var timer = 0
