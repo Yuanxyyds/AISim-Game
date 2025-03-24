@@ -5,6 +5,8 @@ func show_chat(speaker: String, text: String):
 	$Label.text = text
 
 	# Hide all portraits
+	$Chatbox.visible = true
+	$Label.visible = true
 	$Alice.visible = false
 	$Catherine.visible = false
 
